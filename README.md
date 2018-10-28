@@ -1,6 +1,6 @@
 # miniBaymax--A-low-cost-interactive-diagonostic-tool-for-Valvular-Heart-Disease-detection
 
-## This web application is motivated by Baymax of the animated movie Big Hero 6. It detects Valvular Heart disorder i.e. damage or defect in one of the four heart valves. On the Machine Learning side, I have used AutoML from the deep learning platform H2O. And the interactive application is build in RShiny.
+## This interactive web application is motivated by Baymax of the animated movie Big Hero 6. It detects Valvular Heart disorder i.e. damage or defect in one of the four heart valves. On the Machine Learning side, I have used AutoML from the deep learning platform H2O. And the interactive application is build in RShiny.
 
 ### There are three main files in this application:
 + __h2o_model.R__ consists of the pretrained model. I have used the AutoML function from h2o to find the best model. The best model is then saved and is used in the RShiny application.
